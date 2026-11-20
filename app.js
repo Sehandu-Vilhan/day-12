@@ -54,6 +54,7 @@
 
 
 
+
 // const myHeaders = new Headers();
 // myHeaders.append("Content-Type", "application/json");
 // myHeaders.append("Authorization", "Bearer ");
@@ -87,10 +88,10 @@ function click1() {
 
 
 
-    const myHeaders = new Headers();
+    const myHeaders = new Headers();``
     myHeaders.append("Content-Type", "application/json");
 
-    myHeaders.append("Authorization",                                  "Bearer +++++++++++++++++++++++   add api link here ");
+    myHeaders.append("Authorization", "Bearer +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   ");
 
 
     myHeaders.append("Cookie", "__cf_bm=_U3iWbyKb5G_1kP54bUNBkhwR8ID4azIEfO8AfZDHAY-1795073664.7692878-1.0.1.1-VJhUKk8TTAfBSWj5GZdBt1RPRvRNYL4KqNxXmxsULjcMoATIE3NRCeejbz7e3wC96M1lAN0Kw.mCeMafQTUcOvmsqgwfIxQMGUbtmLGAjYRu6Oey3lOx_jbM2uGri.GP");
@@ -159,8 +160,8 @@ function clickMe_H() {
     for (let i = 0; i < His1.length; i++) {
 
 
-        document.getElementById("hhh").innerHTML += His1[i];
-
+        // document.getElementById("hhh").innerHTML += His1[i];
+        document.getElementById("hhh").innerHTML += `<li>${His1[i]}</li>`;
 
     }
 
